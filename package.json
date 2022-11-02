@@ -4,12 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.3.1",
+    "@editorjs/editorjs": "^2.25.0",
+    "cookies-next": "^2.1.1",
+    "js-cookie": "^3.0.1",
+    "next": "^13.0.1",
+    "next-auth": "^4.14.0",
+    "nookies": "^2.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
